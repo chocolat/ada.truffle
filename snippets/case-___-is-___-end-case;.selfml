@@ -1,0 +1,10 @@
+(name [case … is … end case;])
+
+(trigger
+    (tab case))
+
+(only-in source.ada)
+
+(snippet [case %{1} is
+	%{0}
+end case;])

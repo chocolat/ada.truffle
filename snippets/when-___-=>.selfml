@@ -1,0 +1,9 @@
+(name [when … =>])
+
+(trigger
+    (tab when))
+
+(only-in source.ada)
+
+(snippet [when %{1} =>
+	%{0}])

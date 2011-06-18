@@ -1,0 +1,14 @@
+(detector
+    (extension adb)
+    (extension ads))
+
+(folding
+    (start [\b(?i:(procedure|package|function|task|type|loop))\b])
+    (stop [\b(?i:(end))\b]))
+
+(shell-variables
+    (TM_COMMENT_START [-- ]))
+
+(comment.line [-- ])
+
+(indentation.increase [\b(?i:(loop|declare|begin|exception|when|procedure|for|if|else|task|type|package))\b])

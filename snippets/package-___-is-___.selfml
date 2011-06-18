@@ -1,0 +1,8 @@
+(name [package … is …])
+
+(trigger
+    (tab pne))
+
+(only-in source.ada)
+
+(snippet [package %{1} is %{0}])

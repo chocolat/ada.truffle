@@ -1,0 +1,10 @@
+(name [begin … end])
+
+(trigger
+    (tab beg))
+
+(only-in source.ada)
+
+(snippet [begin
+	%{0}
+end;])

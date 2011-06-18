@@ -1,0 +1,8 @@
+(name [with …;])
+
+(trigger
+    (tab w))
+
+(only-in source.ada)
+
+(snippet [with %{1};])

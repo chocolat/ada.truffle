@@ -1,0 +1,8 @@
+(name [type … is …])
+
+(trigger
+    (tab ty))
+
+(only-in source.ada)
+
+(snippet [type %{1} is %{0}])

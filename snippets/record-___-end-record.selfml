@@ -1,0 +1,10 @@
+(name [record … end record])
+
+(trigger
+    (tab rec))
+
+(only-in source.ada)
+
+(snippet [record
+	%{0}
+end record;])

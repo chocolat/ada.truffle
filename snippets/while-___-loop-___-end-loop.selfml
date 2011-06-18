@@ -1,0 +1,10 @@
+(name [while … loop … end loop])
+
+(trigger
+    (tab whi))
+
+(only-in source.ada)
+
+(snippet [while %{1} loop
+	%{0}
+end loop;])

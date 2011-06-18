@@ -1,0 +1,8 @@
+(name access)
+
+(trigger
+    (tab acc))
+
+(only-in source.ada)
+
+(snippet [access ])

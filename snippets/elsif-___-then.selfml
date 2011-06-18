@@ -1,0 +1,9 @@
+(name [elsif … then])
+
+(trigger
+    (tab eli))
+
+(only-in source.ada)
+
+(snippet [elsif %{1} then
+	%{0}])

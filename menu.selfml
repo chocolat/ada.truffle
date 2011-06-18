@@ -1,0 +1,5 @@
+(menu snippet.aliased
+    snippet.access
+    ---
+    (submenu [Control Flow] snippet.for-___-loop-___-end-loop snippet.while-___-loop-___-end-loop snippet.loop-___-end-loop snippet.case-___-is-___-end-case; snippet.if-___-end-if snippet.elsif-___-then snippet.when-___-=> snippet.begin-___-end snippet.return-___;)
+    (submenu Definitions snippet.procedure-___-end snippet.package-___-end snippet.package-body-___-end snippet.function-___-end snippet.record-___-end-record snippet.package-___-is-___ snippet.type-___-is-___ snippet.with-___; snippet.with-___;-use-___; snippet.use-___;))

@@ -1,0 +1,12 @@
+(name [function … end])
+
+(trigger
+    (tab fun))
+
+(only-in source.ada)
+
+(snippet [function %{1="name"} return %{2} is
+	%{3}
+begin -- %{1}
+	%{0}
+end %{1};])

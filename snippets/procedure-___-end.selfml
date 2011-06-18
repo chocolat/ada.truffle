@@ -1,0 +1,12 @@
+(name [procedure … end])
+
+(trigger
+    (tab pro))
+
+(only-in source.ada)
+
+(snippet [procedure %{1="Procedure"} is
+	%{2}
+begin -- %{1/([a-zA-Z0-9_]*).*$/$1/}
+	%{0}
+end %{1/([a-zA-Z0-9_]*).*$/$1/};])

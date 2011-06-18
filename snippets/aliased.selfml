@@ -1,0 +1,8 @@
+(name aliased)
+
+(trigger
+    (tab ali))
+
+(only-in source.ada)
+
+(snippet [aliased ])

@@ -1,0 +1,10 @@
+(name [for … loop … end loop])
+
+(trigger
+    (tab for))
+
+(only-in source.ada)
+
+(snippet [for %{1} in %{2} loop
+	%{0}
+end loop;])

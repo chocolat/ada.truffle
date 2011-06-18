@@ -1,0 +1,10 @@
+(name [if … end if])
+
+(trigger
+    (tab if))
+
+(only-in source.ada)
+
+(snippet [if %{1} then
+	%{0}
+end if;])
